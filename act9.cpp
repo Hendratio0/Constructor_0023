@@ -39,3 +39,10 @@ public:
     void cetakData();
     void isiData();
 };
+// Definisi member function
+angka::angka(int i)
+{
+    panjang = i;
+    arr = new int[i];
+    isiData();
+}
